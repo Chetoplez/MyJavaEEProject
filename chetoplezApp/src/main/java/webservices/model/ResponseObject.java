@@ -1,4 +1,4 @@
-package chetoplezApp.src.main.java.webservices.model;
+package webservices.model;
 
 import lombok.Getter;
 import lombok.Setter;

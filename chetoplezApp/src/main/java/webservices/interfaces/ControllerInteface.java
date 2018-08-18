@@ -1,5 +1,8 @@
 package webservices.interfaces;
 
-public interface ControllerInteface {
+import webservices.model.HelloRequest;
+import webservices.model.HelloResponse;
 
+public interface ControllerInteface {
+    public HelloResponse helloWorld(HelloRequest request);
 }
